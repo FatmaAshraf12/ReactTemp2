@@ -34,7 +34,7 @@ const responsive = {
                 
             
 
-<Test data-aos="fade-in">
+<Test>
             <Carousel autoPlay={true} responsive={responsive} >
             <Item>
                         <Img src="images/blogs/1.jpg"/>
@@ -80,7 +80,7 @@ const responsive = {
                         </Desc>
                         
                     </Item>
-            </Carousel>;
+            </Carousel>
             </Test>
             <Div2>
                 <Overlay>

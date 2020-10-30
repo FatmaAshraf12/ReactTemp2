@@ -15,7 +15,7 @@ const Home = () =>{
                 <H3>Welcome to XYZ</H3>
                 <P>Lorem Ipsum is simply dummy text of the printing and typesetting.Lorem Ipsum is simply</P>
             </Text>
-                <Img data-aos="zoom-out" src="/images/home/h.png" />
+                <Img data-aos="zoom-out" src="images/home/h.png" />
             </Div>  
             <Hero>
                 <Svg viewBox="0 0 100 100" preserveAspectRatio="none">
