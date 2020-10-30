@@ -15,7 +15,7 @@ export const  Div = styled.div`
     justify-content: space-around;
     padding-bottom:5px;
   @media (max-width: 768px) {
-    flex-direction: column;
+    display:block
   }
 
 `
@@ -24,6 +24,11 @@ width:60px;
 height:50px;
 margin-right:10px;
 margin-bottom:10px;
+@media (max-width: 768px) {
+  width:100px
+  display:inline-block;
+  height:40px;
+}
 `
 export const P= styled.p`
 font-size:14px;
@@ -40,28 +45,34 @@ width:40%;
 padding:20px;
 padding-right:60px;
 @media (max-width: 768px) {
-    width:90%;
+    width:65%;
+    display:inline-block;
+
   }
 `
 export const Second=styled.div`
 width:20%;
 padding:20px;
 @media (max-width: 768px) {
-    width:70%;
+    width:30%;
+    display:inline-block;
   }
 `
 export const Third=styled.div`
 width:20%;
 padding:20px;
 @media (max-width: 768px) {
-    width:70%;
+    width:65%;
+    display:inline-block;
+    
   }
 `
 export const Fourth=styled.div`
 width:20%;
 padding:20px;
 @media (max-width: 768px) {
-    width:70%;
+    width:30%;
+    display:inline-block;
   }
 
 `

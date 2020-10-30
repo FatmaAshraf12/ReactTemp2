@@ -10,6 +10,9 @@ background-color:#065446;
 `
 export const NavBrand = styled(Navbar)`
 padding-left:20px;
+font-size:40px;
+font-weight:900;
+color:#ec524b;
 `
 export const Img = styled.img`
 width:80%;
@@ -42,7 +45,7 @@ export const Linkk = styled(Link)`
        
     }
     @media (max-width: 768px) {
-        margin-bottom:20px;
+        margin-bottom:10px;
         font-weight:400;
      
        }

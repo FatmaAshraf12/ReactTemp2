@@ -8,15 +8,15 @@ const NNavbar = () =>{
         <Container>
             <Navvbar expand="lg">
                 
-                <NavBrand><Img src="images/navbar/logo.png"/></NavBrand>
+                <NavBrand>XYZ</NavBrand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav0 className="mr-auto">
-                        <Linkk activeClass="active" to="home" spy={true} smooth={true} offset={-70} duration={800}>Home</Linkk>
-                        <Linkk activeClass="active" to="about" spy={true} smooth={true} offset={-70} duration={800}>About</Linkk>
-                        <Linkk activeClass="active" to="features" spy={true} smooth={true} offset={-70} duration={800}>Features</Linkk>
-                        <Linkk activeClass="active" to="blogs" spy={true} smooth={true} offset={-70} duration={800}>Blogs</Linkk>   
-                        <Linkk activeClass="active" to="contacts" spy={true} smooth={true} offset={-70} duration={800}>Contacts</Linkk>    
+                        <Linkk activeClass="active" to="home">Home</Linkk>
+                        <Linkk activeClass="active" to="about" >About</Linkk>
+                        <Linkk activeClass="active" to="features" >Features</Linkk>
+                        <Linkk activeClass="active" to="blogs" >Blogs</Linkk>   
+                        <Linkk activeClass="active" to="contacts" >Contacts</Linkk>    
  
                     </Nav0>
                     

@@ -14,7 +14,8 @@ export const Text = styled.div`
     height:300px;
     margin-top:9%;
     @media (max-width: 768px) {
-        width:80%;
+      padding-left:20px;
+        width:50%;
         margin:auto;
       }
 
@@ -34,7 +35,7 @@ export const Img = styled.img`
    width:400px;
    height:400px;
    @media (max-width: 768px) {
-    width:80%;
+    width:40%;
     margin:auto;
   }
 
@@ -43,7 +44,7 @@ export const Div = styled.div`
 display: flex;
   justify-content: space-around;
   @media (max-width: 768px) {
-    flex-direction: column;
+    flex-direction: Row;
   }
 `
 

@@ -6,12 +6,12 @@ import {Section,Div,Img,P,Br,First,Second,Third,Fourth,H5,Icons} from './contact
 
 const Contacts =()=>{
     useEffect(()=>{
-        Aos.init({duration:2000});
+        Aos.init({});
     },[]);
     return(
         <Section id="contacts">
             <Container>
-            <Div data-aos="fade-in">
+            <Div>
                 <First>
                     <H5>About XYZ</H5>
                     <P>Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text Lorem Ipsum.</P>
