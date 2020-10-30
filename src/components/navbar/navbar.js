@@ -12,11 +12,11 @@ const NNavbar = () =>{
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav0 className="mr-auto">
-                        <Linkk activeClass="active" to="home">Home</Linkk>
-                        <Linkk activeClass="active" to="about" >About</Linkk>
-                        <Linkk activeClass="active" to="features" >Features</Linkk>
-                        <Linkk activeClass="active" to="blogs" >Blogs</Linkk>   
-                        <Linkk  to="contacts" >Contacts</Linkk>    
+                        <Linkk activeClass to="home">Home</Linkk>
+                        <Linkk activeClass to="about" >About</Linkk>
+                        <Linkk activeClass to="features" >Features</Linkk>
+                        <Linkk activeClass to="blogs" >Blogs</Linkk>   
+                        <Linkk activeClass to="contacts" >Contacts</Linkk>    
  
                     </Nav0>
                     

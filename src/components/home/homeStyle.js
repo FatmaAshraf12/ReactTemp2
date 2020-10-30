@@ -41,6 +41,7 @@ export const Img = styled.img`
 
 `
 export const Div = styled.div`
+padding-top:80px;
 display: flex;
   justify-content: space-around;
   @media (max-width: 768px) {

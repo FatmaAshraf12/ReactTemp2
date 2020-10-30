@@ -19,7 +19,6 @@ const Contacts =()=>{
 
                 <Second>
                     <H5>Projects</H5>
-                    <P>Web Design</P>
                     <P>html5 , css3</P>
                     <P>Js , jQuery</P>
                     <P>bootstrap</P>

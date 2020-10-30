@@ -12,6 +12,7 @@ export const  Div = styled.div`
     width:100%;
     height:auto;
     display:flex;
+padding-top:20px;
     justify-content: space-around;
     padding-bottom:5px;
   @media (max-width: 768px) {
@@ -42,36 +43,35 @@ padding-bottom:0px;
 export const Br = styled.br``
 export const First=styled.div`
 width:40%;
-padding:20px;
 padding-right:60px;
 @media (max-width: 768px) {
-    width:65%;
+    width:63%;
     display:inline-block;
 
   }
 `
 export const Second=styled.div`
 width:20%;
-padding:20px;
 @media (max-width: 768px) {
-    width:30%;
+    width:35%;
+
     display:inline-block;
   }
 `
 export const Third=styled.div`
 width:20%;
-padding:20px;
 @media (max-width: 768px) {
-    width:65%;
+    width:63%;
+
     display:inline-block;
     
   }
 `
 export const Fourth=styled.div`
 width:20%;
-padding:20px;
 @media (max-width: 768px) {
-    width:30%;
+    width:35%;
+
     display:inline-block;
   }
 
@@ -79,6 +79,7 @@ padding:20px;
 export const H5 =styled.h5`
 color:#065446;
 margin-bottom:20px;
+margin-top:10px;
 font-weight:700;
 `
 export const Icons = styled.i``
