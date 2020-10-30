@@ -16,7 +16,7 @@ const NNavbar = () =>{
                         <Linkk activeClass="active" to="about" >About</Linkk>
                         <Linkk activeClass="active" to="features" >Features</Linkk>
                         <Linkk activeClass="active" to="blogs" >Blogs</Linkk>   
-                        <Linkk activeClass="active" to="contacts" >Contacts</Linkk>    
+                        <Linkk  to="contacts" >Contacts</Linkk>    
  
                     </Nav0>
                     
